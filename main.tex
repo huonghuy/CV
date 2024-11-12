@@ -1,0 +1,53 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage{Settings}
+\addbibresource{Presentation.bib}
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Huy Huong
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{Stratford, CT 06615}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:huyhuon02@gmail.com}{huyhuon02@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+1-203-683-8037}{(203) 683-8037}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{https://huy-huong.webflow.io/}{huy-huong.webflow.io/}}%
+        %\kern 5.0 pt%
+        %\AND%
+        %\kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/huyhuong}{linkedin.com/in/huyhuong}}%
+        %\kern 5.0 pt%
+        %\AND%
+        %\kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{https://github.com/huonghuy}{github.com/huonghuy}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+    \input{Sources/Education}
+    \input{Sources/Honors_Awards}
+    \input{Sources/Publications}
+    \input{Sources/Research_Experience}
+    \input{Sources/Projects}
+    \input{Sources/Employment}
+    \input{Sources/Leadership_Service}   
+    \input{Sources/Skills}
+\end{document}
