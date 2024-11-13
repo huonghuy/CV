@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1731532703.08622 "main.bcf" "main.bbl" "main" 1731532708.76177 0
+["biber main"] 1731533462.38687 "main.bcf" "main.bbl" "main" 1731533468.02619 0
   "Presentation.bib" 1731528880.14217 2752 d3db31c202890dcdc0229da8a337b0f0 ""
-  "main.bcf" 1731532708.68233 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
+  "main.bcf" 1731533467.94749 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731532707.4375 "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" "main.pdf" "main" 1731532708.7621 0
+["pdflatex"] 1731533466.74028 "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" "main.pdf" "main" 1731533468.02651 0
   "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" 1731532306.55076 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -170,9 +170,9 @@
   "Sources/Publications.tex" 1731528880.1431 88 a3fa9af5f9f2c0832ae35f5e10cd6f31 ""
   "Sources/Research.tex" 1731528880.1432 3567 7a13c740d5d53b0e59e5de62f6251a15 ""
   "Sources/Skills.tex" 1731528880.14328 525 828474770ddc133b7cc4a2ef7cee5dc3 ""
-  "main.aux" 1731532708.68006 3268 e0506be36bad970b276d9bfb5b568bd7 "pdflatex"
-  "main.bbl" 1731532704.75773 13692 2ad22ca96871370431232c905dd82105 "biber main"
-  "main.run.xml" 1731532708.6832 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
+  "main.aux" 1731533467.94521 3268 e0506be36bad970b276d9bfb5b568bd7 "pdflatex"
+  "main.bbl" 1731533464.04204 13692 2ad22ca96871370431232c905dd82105 "biber main"
+  "main.run.xml" 1731533467.94821 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
   "main.tex" 1731532306.55076 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   (generated)
   "main.aux"
