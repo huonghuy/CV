@@ -70,6 +70,20 @@
   \iftoggle{boldname}{\textbf{#1}}{#1}%
 }
 
+% Define entry type format for papers or posters
+\DeclareFieldFormat{entrysubtype}{\textit{#1}}
+\renewbibmacro*{title}{%
+  \textbf{\printfield{entrysubtype}}%
+  \addspace
+  \printfield{title}%
+}
+
+\AtEveryBibitem{%
+  \ifentrytype{inproceedings}{%
+    \renewbibmacro{in:}{}%
+  }{}
+}
+
 \usepackage{charter}
 
 % Some settings:
