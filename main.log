@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.13)  13 NOV 2024 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.13)  13 NOV 2024 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -776,8 +776,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11     \end{onecolentry}
-                           [2]) (./Sources/Skills.tex)
+l.1 \section{Leadership \& Service}
+                                    [2]) (./Sources/Skills.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
@@ -802,7 +802,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,7n,94p,1232b,1174s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (3 pages, 72628 bytes).
+Output written on main.pdf (3 pages, 72754 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
