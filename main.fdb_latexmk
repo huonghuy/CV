@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1731534653.4548 "main.bcf" "main.bbl" "main" 1731534657.74159 0
-  "Presentation.bib" 1731534653.33609 2761 b90e9417a51c02254160be399af5837e ""
-  "main.bcf" 1731534657.66491 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
+["biber main"] 1731534653.4548 "main.bcf" "main.bbl" "main" 1731867459.77666 0
+  "Presentation.bib" 1731545209.09546 2761 b90e9417a51c02254160be399af5837e ""
+  "main.bcf" 1731867459.69477 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731534656.46787 "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" "main.pdf" "main" 1731534657.74189 0
+["pdflatex"] 1731867458.20494 "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" "main.pdf" "main" 1731867459.77698 0
   "/Users/huyhuong/Git-Repos/CV_Huong/main.tex" 1731534162.03626 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -158,7 +158,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727642399 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
-  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731531264 5475505 9858817de6e728d163c121232b884c29 ""
+  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731856108 5475505 9858817de6e728d163c121232b884c29 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731531304 3342966 47ca796f829860135a2df5e96e68b1ce ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Settings.sty" 1731533791.00223 5734 ee9804b584a1527b641e9fa4486243ea ""
@@ -166,13 +166,13 @@
   "Sources/Employment.tex" 1731528880.14267 2330 a09d5b134d291f791d0a28dba9be2754 ""
   "Sources/Honors_Awards.tex" 1731528880.14282 550 0d7f423cee866c45dc6e9fb36d49da5a ""
   "Sources/Leadership_Service.tex" 1731528880.14292 980 59445dfd890cc95fa8f31a3457a9a075 ""
-  "Sources/Projects.tex" 1731528880.14302 2246 65cd78fdfee9ed38f94bd790152e675a ""
+  "Sources/Projects.tex" 1731867457.96103 2262 6b828aa1072682cf1db20e0950d312e6 ""
   "Sources/Publications.tex" 1731528880.1431 88 a3fa9af5f9f2c0832ae35f5e10cd6f31 ""
   "Sources/Research.tex" 1731533756.97673 3566 dbc20b5a4996081c1aa2cf1445015165 ""
   "Sources/Skills.tex" 1731528880.14328 525 828474770ddc133b7cc4a2ef7cee5dc3 ""
-  "main.aux" 1731534657.66264 3268 ffaa6911d82542276256781a96f16fe2 "pdflatex"
+  "main.aux" 1731867459.69219 3268 ffaa6911d82542276256781a96f16fe2 "pdflatex"
   "main.bbl" 1731534655.16791 13701 6941c47b748cf21296528e6545d114e3 "biber main"
-  "main.run.xml" 1731534657.66565 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
+  "main.run.xml" 1731867459.6956 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
   "main.tex" 1731534162.03626 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   (generated)
   "main.aux"
