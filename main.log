@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.13)  17 NOV 2024 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.13)  20 NOV 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/huyhuong/Git-Repos/CV_Huong/main.tex
-(/Users/huyhuong/Git-Repos/CV_Huong/main.tex
+**/Users/huyhuong/Git-Repos/CV/main.tex
+(/Users/huyhuong/Git-Repos/CV/main.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -795,14 +795,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  28304 strings out of 473362
- 526210 string characters out of 5720983
+ 526192 string characters out of 5720983
  1319213 words of memory out of 5000000
  51052 multiletter control sequences out of 15000+600000
  597025 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,94p,1232b,1174s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,94p,1226b,1174s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (3 pages, 72958 bytes).
+Output written on main.pdf (3 pages, 72948 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
