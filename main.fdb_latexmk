@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1732072794.53465 "main.bcf" "main.bbl" "main" 1732144134.9605 0
+["biber main"] 1732072794.53465 "main.bcf" "main.bbl" "main" 1733017601.89428 0
   "Presentation.bib" 1732072794.33995 2766 6f31c118d9a330c4fb626cf41ff31e56 ""
-  "main.bcf" 1732144134.89301 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
+  "main.bcf" 1733017601.82351 108507 59ff6c3fdda60463c78e5060c87ecdc2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732144133.88594 "/Users/huyhuong/Git-Repos/CV/main.tex" "main.pdf" "main" 1732144134.96076 0
-  "/Users/huyhuong/Git-Repos/CV/main.tex" 1732144133.77883 1531 db5233e179885a84b38515cde3b18d0f ""
+["pdflatex"] 1733017600.71936 "/Users/huyhuong/Git-Repos/CV/main.tex" "main.pdf" "main" 1733017601.8946 0
+  "/Users/huyhuong/Git-Repos/CV/main.tex" 1733017600.41312 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -158,8 +158,8 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727642399 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
-  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731960861 5475505 9858817de6e728d163c121232b884c29 ""
-  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731531304 3342966 47ca796f829860135a2df5e96e68b1ce ""
+  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733001680 5476123 0aaf5f0b94d004f6c94b5aad0957af23 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733001796 3343743 eadbfd96759059438c3c8d05d3725483 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Settings.sty" 1731966969.9858 5734 ee9804b584a1527b641e9fa4486243ea ""
   "Sources/Education.tex" 1731966375.04527 553 34ba89e04bafbce3cb852f37fd0993c2 ""
@@ -170,10 +170,10 @@
   "Sources/Publications.tex" 1731966375.0457 88 a3fa9af5f9f2c0832ae35f5e10cd6f31 ""
   "Sources/Research.tex" 1732075566.63195 3549 28547bdca880217665583a4974d56681 ""
   "Sources/Skills.tex" 1731966375.04589 525 828474770ddc133b7cc4a2ef7cee5dc3 ""
-  "main.aux" 1732144134.89093 3268 9a7a57aca4e2b5269df8072a784cc861 "pdflatex"
+  "main.aux" 1733017601.8217 3268 9a7a57aca4e2b5269df8072a784cc861 "pdflatex"
   "main.bbl" 1732072806.58172 13706 ace0bd28ecce575e6d045c6dc6bd557b "biber main"
-  "main.run.xml" 1732144134.89375 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
-  "main.tex" 1732144133.77883 1531 db5233e179885a84b38515cde3b18d0f ""
+  "main.run.xml" 1733017601.82416 2307 33ffcd398858086dd13e7959a6eb94a7 "pdflatex"
+  "main.tex" 1733017600.41312 1532 a4ae444db3ed3a3aa6366f981ead5014 ""
   (generated)
   "main.aux"
   "main.bcf"
