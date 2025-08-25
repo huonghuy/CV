@@ -1,0 +1,18 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'main.blg'
+[46] biber-darwin:342> INFO - === Sun Aug 24, 2025, 23:25:05
+[56] Biber.pm:421> INFO - Reading 'main.bcf'
+[112] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[121] Biber.pm:4487> INFO - Processing section 0
+[128] Biber.pm:4678> INFO - Looking for bibtex file 'Presentation.bib' for section 0
+[128] bibtex.pm:1713> INFO - LaTeX decoding ...
+[134] bibtex.pm:1519> INFO - Found BibTeX data source 'Presentation.bib'
+[154] Utils.pm:479> ERROR - Name "Huy Trung Huong, Sushma Gudi, Vamsi Sripada, Juan David Urrea Vargas, Mohammad Omar AL-Torzi, Karissa Bird," has too many commas, skipping entry 'ASEE25_Monkey'
+[178] Utils.pm:479> ERROR - Name "Vamsi Sripada, Mohammad Omar AL-Torzi, Huy Trung Huong, Juan David Urrea Vargas, Sushma Gudi, Andrew Louis Iorio, Jani Macari Pallis," has too many commas, skipping entry 'ASEE25_Explorer'
+[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[189] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[189] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[193] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[196] bbl.pm:779> INFO - Output to main.bbl
+[196] Biber.pm:137> INFO - ERRORS: 2

@@ -19,8 +19,8 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
-    \entry{ASEE25_LawnBot}{inproceedings}{}{}
-      \name{author}{4}{}{%
+    \entry{ASEENE25_LawnBot}{inproceedings}{}{}
+      \name{author}{5}{}{%
         {{hash=0521c0b522732cc9ee53d20baa171150}{%
            family={Huong},
            familyi={H\bibinitperiod},
@@ -41,156 +41,170 @@
            familyi={L\bibinitperiod},
            given={Carlos},
            giveni={C\bibinitperiod}}}%
+        {{hash=e87dfa4971371b8dc6c1bc6197bdc9ab}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sarosh},
+           giveni={S\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Montreal, Canada}%
+        {Bridgeport, Connecticut, USA}%
       }
       \list{organization}{1}{%
         {The American Society for Engineering Education}%
       }
-      \strng{namehash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{fullhash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{fullhashraw}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{bibnamehash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{authorbibnamehash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{authornamehash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{authorfullhash}{a335d5c838ac584be4f0890c1dc06d28}
-      \strng{authorfullhashraw}{a335d5c838ac584be4f0890c1dc06d28}
+      \strng{namehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{fullhash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{fullhashraw}{b8fc376df6f9630096840fe6161f6661}
+      \strng{bibnamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorbibnamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authornamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorfullhash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorfullhashraw}{b8fc376df6f9630096840fe6161f6661}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2025 ASEE Annual Convention and Exposition (ASEE 2025)}
-      \field{entrysubtype}{Abstract Accepted}
-      \field{month}{6}
-      \field{title}{LawnBot: Affordable Semi Autonomous Lawnmowers for Consumer Usage}
+      \field{booktitle}{2025 ASEE Northeast Conference}
+      \field{day}{22}
+      \field{month}{3}
+      \field{title}{LawnBot: Affordable Autonomous Lawnmowers}
       \field{year}{2025}
+      \field{dateera}{ce}
       \true{nocite}
     \endentry
-    \entry{ASEE25_Monkey}{inproceedings}{}{}
-      \name{author}{7}{}{%
+    \entry{SBT25_UBPPF}{inproceedings}{}{}
+      \name{author}{6}{}{%
         {{hash=0521c0b522732cc9ee53d20baa171150}{%
            family={Huong},
            familyi={H\bibinitperiod},
            given={Huy},
            giveni={H\bibinitperiod}}}%
-        {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
-           family={Pallis},
-           familyi={P\bibinitperiod},
-           given={Jani},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e536bb46ead99bb7306fd7b384fd17ec}{%
-           family={Gudi},
-           familyi={G\bibinitperiod},
-           given={Sushma},
-           giveni={S\bibinitperiod}}}%
-        {{hash=004702a5b9b768bdd2daff920314b192}{%
-           family={Bird},
-           familyi={B\bibinitperiod},
-           given={Karissa},
-           giveni={K\bibinitperiod}}}%
+        {{hash=541d37c9cb27a8edb976cb52bc8c979e}{%
+           family={Al-Torzi},
+           familyi={A\bibinithyphendelim T\bibinitperiod},
+           given={Mohammad\bibnamedelima Omar},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
         {{hash=8fc11d11e68088d63131ce9b6709e532}{%
            family={Urrea\bibnamedelima Vargas},
            familyi={U\bibinitperiod\bibinitdelim V\bibinitperiod},
            given={Juan},
            giveni={J\bibinitperiod}}}%
-        {{hash=e2066200fd45f9445e019a50e4228611}{%
-           family={Al\bibnamedelima Torzi},
-           familyi={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ec509b47862039f40599b44d66c9f432}{%
-           family={Sripada},
-           familyi={S\bibinitperiod},
-           given={Vamsi},
-           giveni={V\bibinitperiod}}}%
+        {{hash=edcd8b98383064b864e8004d2d1fbb2b}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Rudra},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b3a7c642a4f07d184dfe9dedbce532af}{%
+           family={Zoghb},
+           familyi={Z\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
+           family={Pallis},
+           familyi={P\bibinitperiod},
+           given={Jani},
+           giveni={J\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Montreal, Canada}%
+        {Minneapolis, MN}%
       }
       \list{organization}{1}{%
-        {The American Society for Engineering Education}%
+        {Scientific Ballooning Technologies}%
       }
-      \strng{namehash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{fullhash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{fullhashraw}{617f5039b5764d2eb85a218c619b001d}
-      \strng{bibnamehash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{authorbibnamehash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{authornamehash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{authorfullhash}{617f5039b5764d2eb85a218c619b001d}
-      \strng{authorfullhashraw}{617f5039b5764d2eb85a218c619b001d}
+      \strng{namehash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{fullhash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{fullhashraw}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{bibnamehash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{authorbibnamehash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{authornamehash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{authorfullhash}{3103e3f6e9e2bba2a95f49973d5bed1e}
+      \strng{authorfullhashraw}{3103e3f6e9e2bba2a95f49973d5bed1e}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2025 ASEE Annual Convention and Exposition (ASEE 2025)}
-      \field{entrysubtype}{Abstract Accepted}
-      \field{month}{6}
-      \field{title}{Near Space Robotics Project}
+      \field{booktitle}{2025 Scientific Ballooning Technologies Workshop}
+      \field{day}{15}
+      \field{month}{5}
+      \field{title}{University of Bridgeport High-Altitude Ballooning Program - Past and Future}
       \field{year}{2025}
+      \field{dateera}{ce}
       \true{nocite}
     \endentry
-    \entry{ASEE25_Explorer}{inproceedings}{}{}
-      \name{author}{7}{}{%
-        {{hash=ec509b47862039f40599b44d66c9f432}{%
-           family={Sripada},
-           familyi={S\bibinitperiod},
-           given={Vamsi},
-           giveni={V\bibinitperiod}}}%
+    \entry{BERC24_HAM}{inproceedings}{}{}
+      \name{author}{9}{}{%
         {{hash=0521c0b522732cc9ee53d20baa171150}{%
            family={Huong},
            familyi={H\bibinitperiod},
            given={Huy},
            giveni={H\bibinitperiod}}}%
-        {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
-           family={Pallis},
-           familyi={P\bibinitperiod},
-           given={Jani},
-           giveni={J\bibinitperiod}}}%
         {{hash=8fc11d11e68088d63131ce9b6709e532}{%
            family={Urrea\bibnamedelima Vargas},
            familyi={U\bibinitperiod\bibinitdelim V\bibinitperiod},
            given={Juan},
            giveni={J\bibinitperiod}}}%
-        {{hash=e2066200fd45f9445e019a50e4228611}{%
-           family={Al\bibnamedelima Torzi},
-           familyi={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e536bb46ead99bb7306fd7b384fd17ec}{%
-           family={Gudi},
-           familyi={G\bibinitperiod},
-           given={Sushma},
+        {{hash=ec509b47862039f40599b44d66c9f432}{%
+           family={Sripada},
+           familyi={S\bibinitperiod},
+           given={Vamsi},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bfa143b5976bec788403466ce0662881}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Daria},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
+           family={Pallis},
+           familyi={P\bibinitperiod},
+           given={Jani},
+           giveni={J\bibinitperiod}}}%
+        {{hash=062550f78ad520b80a1b7a7c75439c13}{%
+           family={Mestre},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dacfb9013d723571a3c5fa9bde6f36d0}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b087decf02f1ded3a79a97ca0d0bff45}{%
+           family={Moyher},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=00317d4fef2813a8a6f957ac3d25e913}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sam},
            giveni={S\bibinitperiod}}}%
-        {{hash=004702a5b9b768bdd2daff920314b192}{%
-           family={Bird},
-           familyi={B\bibinitperiod},
-           given={Karissa},
-           giveni={K\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Montreal, Canada}%
+        {Virtual}%
       }
       \list{organization}{1}{%
-        {The American Society for Engineering Education}%
+        {Academic High Altitude Conference}%
       }
-      \strng{namehash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{fullhash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{fullhashraw}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{bibnamehash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{authorbibnamehash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{authornamehash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{authorfullhash}{bbbfecf78b4fa4f39b4856f927092316}
-      \strng{authorfullhashraw}{bbbfecf78b4fa4f39b4856f927092316}
+      \strng{namehash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{fullhash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{fullhashraw}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{bibnamehash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{authorbibnamehash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{authornamehash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{authorfullhash}{a8aedefde083f57b8aa767db3204b3a6}
+      \strng{authorfullhashraw}{a8aedefde083f57b8aa767db3204b3a6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2025 ASEE Annual Convention and Exposition (ASEE 2025)}
-      \field{entrysubtype}{Abstract Accepted}
-      \field{month}{6}
-      \field{title}{Modification of a 1-Person Submarine for Remote Control Operation}
-      \field{year}{2025}
+      \field{booktitle}{Between Eclipse Research Conference (BERC 2024)}
+      \field{day}{19}
+      \field{entrysubtype}{Poster}
+      \field{month}{1}
+      \field{title}{High Altitude Monkey 2.0}
+      \field{year}{2024}
+      \field{dateera}{ce}
       \true{nocite}
     \endentry
     \entry{BERC24_HAB}{inproceedings}{}{}
@@ -200,31 +214,26 @@
            familyi={H\bibinitperiod},
            given={Huy},
            giveni={H\bibinitperiod}}}%
-        {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
-           family={Pallis},
-           familyi={P\bibinitperiod},
-           given={Jani},
+        {{hash=8fc11d11e68088d63131ce9b6709e532}{%
+           family={Urrea\bibnamedelima Vargas},
+           familyi={U\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Juan},
            giveni={J\bibinitperiod}}}%
         {{hash=ec509b47862039f40599b44d66c9f432}{%
            family={Sripada},
            familyi={S\bibinitperiod},
            given={Vamsi},
            giveni={V\bibinitperiod}}}%
-        {{hash=8fc11d11e68088d63131ce9b6709e532}{%
-           family={Urrea\bibnamedelima Vargas},
-           familyi={U\bibinitperiod\bibinitdelim V\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e536bb46ead99bb7306fd7b384fd17ec}{%
-           family={Gudi},
-           familyi={G\bibinitperiod},
-           given={Sushma},
-           giveni={S\bibinitperiod}}}%
         {{hash=f30b04b57f3d1dc2831f8ecfa27294d8}{%
            family={Saoudi},
            familyi={S\bibinitperiod},
            given={Anass},
            giveni={A\bibinitperiod}}}%
+        {{hash=e536bb46ead99bb7306fd7b384fd17ec}{%
+           family={Gudi},
+           familyi={G\bibinitperiod},
+           given={Sushma},
+           giveni={S\bibinitperiod}}}%
         {{hash=bfa143b5976bec788403466ce0662881}{%
            family={Howard},
            familyi={H\bibinitperiod},
@@ -235,79 +244,11 @@
            familyi={B\bibinitperiod},
            given={Roger},
            giveni={R\bibinitperiod}}}%
-        {{hash=062550f78ad520b80a1b7a7c75439c13}{%
-           family={Mestre},
-           familyi={M\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=dacfb9013d723571a3c5fa9bde6f36d0}{%
-           family={Reed},
-           familyi={R\bibinitperiod},
-           given={Larry},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b087decf02f1ded3a79a97ca0d0bff45}{%
-           family={Moyher},
-           familyi={M\bibinitperiod},
-           given={Gary},
-           giveni={G\bibinitperiod}}}%
-        {{hash=00317d4fef2813a8a6f957ac3d25e913}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Sam},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Virtual}%
-      }
-      \list{organization}{1}{%
-        {Academic High Altitude Conference}%
-      }
-      \strng{namehash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{fullhash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{fullhashraw}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{bibnamehash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{authorbibnamehash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{authornamehash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{authorfullhash}{c78ad85733e6d1849caa20f9e2842c26}
-      \strng{authorfullhashraw}{c78ad85733e6d1849caa20f9e2842c26}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Between Eclipse Research Conference (BERC 2024)}
-      \field{entrysubtype}{Poster}
-      \field{month}{1}
-      \field{title}{High Altitude Ballooning During the 2023 Annular Solar Eclipse}
-      \field{year}{2024}
-      \true{nocite}
-    \endentry
-    \entry{BERC24_HAM}{inproceedings}{}{}
-      \name{author}{9}{}{%
-        {{hash=0521c0b522732cc9ee53d20baa171150}{%
-           family={Huong},
-           familyi={H\bibinitperiod},
-           given={Huy},
-           giveni={H\bibinitperiod}}}%
         {{hash=9c1594b59390f7c7a6c6546cb6c60466}{%
            family={Pallis},
            familyi={P\bibinitperiod},
            given={Jani},
            giveni={J\bibinitperiod}}}%
-        {{hash=ec509b47862039f40599b44d66c9f432}{%
-           family={Sripada},
-           familyi={S\bibinitperiod},
-           given={Vamsi},
-           giveni={V\bibinitperiod}}}%
-        {{hash=8fc11d11e68088d63131ce9b6709e532}{%
-           family={Urrea\bibnamedelima Vargas},
-           familyi={U\bibinitperiod\bibinitdelim V\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bfa143b5976bec788403466ce0662881}{%
-           family={Howard},
-           familyi={H\bibinitperiod},
-           given={Daria},
-           giveni={D\bibinitperiod}}}%
         {{hash=062550f78ad520b80a1b7a7c75439c13}{%
            family={Mestre},
            familyi={M\bibinitperiod},
@@ -335,23 +276,25 @@
       \list{organization}{1}{%
         {Academic High Altitude Conference}%
       }
-      \strng{namehash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{fullhash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{fullhashraw}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{bibnamehash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{authorbibnamehash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{authornamehash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{authorfullhash}{5d93e87381302814807b0cf67a3cd39e}
-      \strng{authorfullhashraw}{5d93e87381302814807b0cf67a3cd39e}
+      \strng{namehash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{fullhash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{fullhashraw}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{bibnamehash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{authorbibnamehash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{authornamehash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{authorfullhash}{888d5d83e292d6c3cc4ef5037a78202e}
+      \strng{authorfullhashraw}{888d5d83e292d6c3cc4ef5037a78202e}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Between Eclipse Research Conference (BERC 2024)}
+      \field{day}{19}
       \field{entrysubtype}{Poster}
       \field{month}{1}
-      \field{title}{High Altitude Monkey 2.0}
+      \field{title}{High Altitude Ballooning During the 2023 Annular Solar Eclipse}
       \field{year}{2024}
+      \field{dateera}{ce}
       \true{nocite}
     \endentry
   \enddatalist
