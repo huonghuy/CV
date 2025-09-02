@@ -42,9 +42,21 @@
 \fi
 
 %Bibliography
-\usepackage[backend=biber,style=numeric,giveninits=true,maxnames=20]{biblatex}
-\ExecuteBibliographyOptions{sorting=ydnt}
-\addbibresource{Presentation.bib}
+\usepackage[backend=biber,style=numeric,giveninits=true,maxnames=20,sorting=ydnt,defernumbers=true]{biblatex}
+\addbibresource{Poster.bib}
+\addbibresource{Proceeding.bib}
+
+% Count total number of entries in each refsection
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
 
 \usepackage{pgffor}
 \usepackage{etoolbox}
