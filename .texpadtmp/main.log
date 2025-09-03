@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.24)  1 SEP 2025 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.24)  2 SEP 2025 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/huyhuong/Git-Repos/CV/main.tex
-(/Users/huyhuong/Git-Repos/CV/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -295,7 +295,8 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count316
 \calc@Cskip=\skip62
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
@@ -594,14 +595,19 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+))
+
+Package biblatex Warning: '\DeclareSortingScheme' is deprecated.
+(biblatex)                Please use '\DeclareSortingTemplate'.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen192
 \pgfutil@tempdimb=\dimen193
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box65
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2025-08-14 v3.1.11 (3.1.11)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks32
 \pgfkeys@temptoks=\toks33
@@ -629,8 +635,9 @@ Package: pgfrcs 2025-08-14 v3.1.11 (3.1.11)
 \pgfmath@stack@operation=\toks37
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count461
-))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2025-08-14 v3.1.11 (3.1.11)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen259
 \pgffor@skip=\dimen260
 \pgffor@stack=\toks38
@@ -643,7 +650,7 @@ Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa)
 LaTeX Font Info:    Trying to load font information for T1+bch on input line 7.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-) (./main.aux)
+) (/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -726,7 +733,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.bbl)
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 \ANDbox=\box68
@@ -768,23 +775,23 @@ Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference section=2 on input line 9.
 Package biblatex Info: Setting label 'refsection:2' on input line 9.
 Package biblatex Info: Reference section=0 on input line 13.
-) (./Sources/Research.tex
-
-[1
+) (./Sources/Research.tex [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Sources/Projects.tex) (./Sources/Employment.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 ...\begin{twocolentry}{Sept 2022 to Aug 2025}
-                                                   [2]) (./Sources/Leadership_Service.tex) (./Sources/Skills.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \end{document}
-                    [3] (./main.aux)
+l.55     \end{onecolentry}
+                           [2]) (./Sources/Leadership_Service.tex) (./Sources/Skills.tex)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{document}
+                    [3] (/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -794,15 +801,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28334 strings out of 467800
- 526308 string characters out of 5431882
- 1336143 words of memory out of 5000000
- 56622 multiletter control sequences out of 15000+600000
+ 28336 strings out of 467800
+ 526682 string characters out of 5431882
+ 1336620 words of memory out of 5000000
+ 56624 multiletter control sequences out of 15000+600000
  662385 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,93p,1226b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,93p,1197b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (3 pages, 66900 bytes).
+Output written on /Users/huyhuong/Git-Repos/CV/.texpadtmp/main.pdf (3 pages, 67140 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream

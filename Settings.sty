@@ -42,7 +42,7 @@
 \fi
 
 %Bibliography
-\usepackage[backend=biber,style=numeric,giveninits=true,maxnames=20,sorting=ydnt,defernumbers=true]{biblatex}
+\usepackage[backend=biber,style=numeric,giveninits=true,maxnames=20,sorting=ydmdnt,defernumbers=true]{biblatex}
 \addbibresource{Poster.bib}
 \addbibresource{Proceeding.bib}
 
@@ -57,6 +57,37 @@
 \newrobustcmd*{\mkbibdesc}[1]{%
   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
 
+\DeclareSortingScheme{ydmdnt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort[direction=descending]{
+    \field{month}
+  }
+  \sort[direction=descending]{
+    \field{day}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttype}
+  }
+}
 
 \usepackage{pgffor}
 \usepackage{etoolbox}

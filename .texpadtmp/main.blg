@@ -1,0 +1,34 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is '/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.blg'
+[36] biber-darwin:342> INFO - === Tue Sep  2, 2025, 16:09:17
+[46] Biber.pm:421> INFO - Reading '/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.bcf'
+[89] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[89] Biber.pm:999> INFO - Using all citekeys in bib section 1
+[89] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[89] Biber.pm:999> INFO - Using all citekeys in bib section 2
+[89] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[104] Biber.pm:4487> INFO - Processing section 1
+[109] Biber.pm:4678> INFO - Looking for bibtex file '/Users/huyhuong/Git-Repos/CV/Proceeding.bib' for section 1
+[110] bibtex.pm:1713> INFO - LaTeX decoding ...
+[112] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/huyhuong/Git-Repos/CV/Proceeding.bib'
+[144] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[145] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[145] Biber.pm:4307> INFO - Sorting list 'ydmdnt/global//global/global/global' of type 'entry' with template 'ydmdnt' and locale 'en-US'
+[145] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[147] Biber.pm:4487> INFO - Processing section 2
+[147] Biber.pm:4678> INFO - Looking for bibtex file '/Users/huyhuong/Git-Repos/CV/Poster.bib' for section 2
+[147] bibtex.pm:1713> INFO - LaTeX decoding ...
+[150] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/huyhuong/Git-Repos/CV/Poster.bib'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[187] Biber.pm:4307> INFO - Sorting list 'ydmdnt/global//global/global/global' of type 'entry' with template 'ydmdnt' and locale 'en-US'
+[187] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[191] bbl.pm:676> INFO - Writing '/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[194] bbl.pm:779> INFO - Output to /Users/huyhuong/Git-Repos/CV/.texpadtmp/main.bbl
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:132> WARN - Field 'sorttype' in sorting template is not a sortable field
+[194] Biber.pm:134> INFO - WARNINGS: 6

@@ -131,11 +131,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+INPUT ./glyphtounicode.tex
+INPUT ./glyphtounicode.tex
+INPUT ./glyphtounicode.tex
+INPUT ./glyphtounicode.tex
+INPUT glyphtounicode.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
@@ -284,7 +284,6 @@ INPUT ./Sources/Publications.tex
 INPUT ./Sources/Publications.tex
 INPUT Sources/Publications.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchbi8t.tfm
 INPUT ./Sources/Research.tex
 INPUT ./Sources/Research.tex
 INPUT ./Sources/Research.tex
@@ -303,8 +302,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchbi8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchbi8r.tfm
 INPUT ./Sources/Projects.tex
 INPUT ./Sources/Projects.tex
 INPUT ./Sources/Projects.tex
@@ -329,7 +326,6 @@ INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb

@@ -18,7 +18,7 @@
 
 
 \refsection{1}
-  \datalist[entry]{ydnt/global//global/global/global}
+  \datalist[entry]{ydmdnt/global//global/global/global}
     \entry{ASEE25_Monkey}{inproceedings}{}{}
       \name{author}{7}{}{%
         {{hash=0521c0b522732cc9ee53d20baa171150}{%
@@ -156,57 +156,7 @@
 \endrefsection
 
 \refsection{2}
-  \datalist[entry]{ydnt/global//global/global/global}
-    \entry{ASEENE25_LawnBot}{misc}{}{}
-      \name{author}{5}{}{%
-        {{hash=0521c0b522732cc9ee53d20baa171150}{%
-           family={Huong},
-           familyi={H\bibinitperiod},
-           given={Huy},
-           giveni={H\bibinitperiod}}}%
-        {{hash=6eb30f5a36860f81cf0cec35376a635c}{%
-           family={Medina},
-           familyi={M\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5d284b94e7e9dcfe5799c5d279407f7f}{%
-           family={Armatis},
-           familyi={A\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f6a8ba1802ef6749063de67f0eddb1ec}{%
-           family={Lara},
-           familyi={L\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e87dfa4971371b8dc6c1bc6197bdc9ab}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={Sarosh},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Bridgeport, Connecticut, USA}%
-      }
-      \strng{namehash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{fullhash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{fullhashraw}{b8fc376df6f9630096840fe6161f6661}
-      \strng{bibnamehash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{authorbibnamehash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{authornamehash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{authorfullhash}{b8fc376df6f9630096840fe6161f6661}
-      \strng{authorfullhashraw}{b8fc376df6f9630096840fe6161f6661}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2025 ASEE Northeast Conference}
-      \field{month}{03}
-      \field{title}{LawnBot: Affordable Autonomous Lawnmowers}
-      \field{year}{2025}
-      \true{nocite}
-      \keyw{poster}
-    \endentry
+  \datalist[entry]{ydmdnt/global//global/global/global}
     \entry{SBT25_UBPPF}{misc}{}{}
       \name{author}{6}{}{%
         {{hash=0521c0b522732cc9ee53d20baa171150}{%
@@ -258,6 +208,56 @@
       \field{booktitle}{2025 Scientific Ballooning Technologies Workshop}
       \field{month}{05}
       \field{title}{University of Bridgeport High-Altitude Ballooning Program - Past and Future}
+      \field{year}{2025}
+      \true{nocite}
+      \keyw{poster}
+    \endentry
+    \entry{ASEENE25_LawnBot}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=0521c0b522732cc9ee53d20baa171150}{%
+           family={Huong},
+           familyi={H\bibinitperiod},
+           given={Huy},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6eb30f5a36860f81cf0cec35376a635c}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d284b94e7e9dcfe5799c5d279407f7f}{%
+           family={Armatis},
+           familyi={A\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f6a8ba1802ef6749063de67f0eddb1ec}{%
+           family={Lara},
+           familyi={L\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e87dfa4971371b8dc6c1bc6197bdc9ab}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sarosh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bridgeport, Connecticut, USA}%
+      }
+      \strng{namehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{fullhash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{fullhashraw}{b8fc376df6f9630096840fe6161f6661}
+      \strng{bibnamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorbibnamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authornamehash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorfullhash}{b8fc376df6f9630096840fe6161f6661}
+      \strng{authorfullhashraw}{b8fc376df6f9630096840fe6161f6661}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 ASEE Northeast Conference}
+      \field{month}{03}
+      \field{title}{LawnBot: Affordable Autonomous Lawnmowers}
       \field{year}{2025}
       \true{nocite}
       \keyw{poster}
