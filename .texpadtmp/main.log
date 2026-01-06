@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.24)  2 SEP 2025 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.7)  11 NOV 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
@@ -59,7 +59,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen162
 \ar@mcellbox=\box54
 \extrarowheight=\dimen163
@@ -82,7 +82,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
@@ -104,20 +104,20 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count287
 \enitdp@description=\count288
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-10-24 L3 programming layer (loader) 
  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 ))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
@@ -178,8 +178,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip57
 \multlinetaggap=\skip58
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -211,7 +211,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count302
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count303
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
@@ -337,7 +337,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
 ) (./glyphtounicode.tex) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks29
@@ -590,7 +590,7 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-08-13 L3 programming layer (loader) 
+(biblatex)             2025-10-24 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
@@ -642,7 +642,9 @@ Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@skip=\dimen260
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/charter.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment') (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/charter.sty
 Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
 ))
 \@quotelevel=\count462
@@ -759,12 +761,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 13.
- (./Sources/Education.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 22.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
-) (./Sources/Honors_Awards.tex) (./Sources/Publications.tex
+ (./Sources/Education.tex) (./Sources/Honors_Awards.tex) (./Sources/Publications.tex
 \blx@maxsegment@1=\count470
 \blx@sectionciteorder@1=\count471
 Package biblatex Info: Reference section=1 on input line 1.
@@ -772,47 +769,48 @@ Package biblatex Info: Setting label 'refsection:1' on input line 1.
 Package biblatex Info: Reference section=0 on input line 5.
 \blx@maxsegment@2=\count472
 \blx@sectionciteorder@2=\count473
-Package biblatex Info: Reference section=2 on input line 9.
-Package biblatex Info: Setting label 'refsection:2' on input line 9.
-Package biblatex Info: Reference section=0 on input line 13.
-) (./Sources/Research.tex [1
+Package biblatex Info: Reference section=2 on input line 10.
+Package biblatex Info: Setting label 'refsection:2' on input line 10.
+Package biblatex Info: Reference section=0 on input line 14.
+) (./Sources/Research.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+ [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Sources/Projects.tex) (./Sources/Employment.tex
-
-
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] Excluding 'comment' comment.) (./Sources/Projects.tex Excluding 'comment' comment.) (./Sources/Employment.tex Excluding 'comment' comment.) (./Sources/Leadership_Service.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55     \end{onecolentry}
-                           [2]) (./Sources/Leadership_Service.tex) (./Sources/Skills.tex)
-
-
+l.24     \end{onecolentry}
+                           [2] Excluding 'comment' comment.) (./Sources/Skills.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \end{document}
+l.51 \end{document}
                     [3] (/Users/huyhuong/Git-Repos/CV/.texpadtmp/main.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
  ***********
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28336 strings out of 467800
- 526682 string characters out of 5431882
- 1336620 words of memory out of 5000000
- 56624 multiletter control sequences out of 15000+600000
- 662385 words of font info for 68 fonts, out of 8000000 for 9000
+ 28400 strings out of 467538
+ 527968 string characters out of 5419546
+ 1341196 words of memory out of 5000000
+ 56946 multiletter control sequences out of 15000+600000
+ 663281 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,93p,1197b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,98p,1197b,1269s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on /Users/huyhuong/Git-Repos/CV/.texpadtmp/main.pdf (3 pages, 67140 bytes).
+Output written on /Users/huyhuong/Git-Repos/CV/.texpadtmp/main.pdf (3 pages, 67742 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  17 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
