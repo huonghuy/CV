@@ -1,10 +1,15 @@
+% ============================================================
+% CONFIGURATION: update this when you revise your CV
+% ============================================================
+\newcommand{\lastupdated}{March 2026}
+
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
     top=2 cm,
     bottom=2 cm,
-    left=2 cm,
-    right=2 cm,
+    left=2.5 cm,  % increased from 2cm for better readability
+    right=2.5 cm, % increased from 2cm for better readability
     footskip=1.0 cm,
     % showframe
 ]{geometry}
@@ -21,7 +26,8 @@
     pdfauthor={Huy Huong},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
-    urlcolor=primaryColor
+    urlcolor=primaryColor,
+    pageanchor=false  % safer fix for duplicate anchor warning; replaces the fragile \patchcmd approach
 ]{hyperref}
 \usepackage[pscoord]{eso-pic}
 \usepackage{calc}
@@ -130,7 +136,7 @@
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
 \setlength{\topskip}{0pt}
-\setlength{\columnsep}{0.15cm}
+\setlength{\columnsep}{0.25cm}  % increased from 0.15cm for better breathing room
 \pagenumbering{gobble}
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
@@ -151,13 +157,6 @@
 
 \newenvironment{header}{\setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}}{\par\kern\topsep}
 
+% Uses \lastupdated defined at the top — update that command, not this one
 \newcommand{\placelastupdatedtext}{%
-  \AddToShipoutPictureFG*{\put(\LenToUnit{\paperwidth-2 cm-0 cm+0.05cm}, \LenToUnit{\paperheight-1.0 cm}){\vtop{{\null}\makebox[0pt][c]{\small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}}}}}}
-
-% Fix duplicate anchor warning from hyperref
-\makeatletter
-\patchcmd{\Hy@EveryPageHook}{\Hy@pageanchortrue}{}{}{}
-\makeatother
-
-% Save original href
-\let\hrefWithoutArrow\href
+  \AddToShipoutPictureFG*{\put(\LenToUnit{\paperwidth-2 cm-0 cm+0.05cm}, \LenToUnit{\paperheight-1.0 cm}){\vtop{{\null}\makebox[0pt][c]{\small\color{gray}\textit{Last updated in \lastupdated}\hspace{\widthof{Last updated in \lastupdated}}}}}}}
