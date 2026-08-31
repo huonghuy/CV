@@ -63,7 +63,7 @@
 \newrobustcmd*{\mkbibdesc}[1]{%
   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
 
-\DeclareSortingScheme{ydmdnt}{
+\DeclareSortingTemplate{ydmdnt}{
   \sort{
     \field{presort}
   }
@@ -101,21 +101,55 @@
 
 \newcommand{\mynames}[1]{\def\my@namelist{#1}}
 \newtoggle{boldname}
-\renewcommand*{\mkbibnamefamily}[1]{%
+
+% Biber stores name parts with markup, not plain text: "Huy Trung" arrives as
+% "Huy\bibnamedelima Trung" and its initials as "H\bibinitperiod\bibinitdelim
+% T\bibinitperiod". Flatten that markup to plain characters so the \mynames
+% entries can be written the natural way and still compare equal.
+\newcommand*{\flattenname}[2]{%
+  \ifdef{#2}{%
+    \begingroup
+      \def\bibnamedelima{ }\def\bibnamedelimb{ }\def\bibnamedelimc{ }%
+      \def\bibnamedelimd{ }\def\bibnamedelimi{ }\def\bibinitdelim{ }%
+      \def\bibinitperiod{.}\def\bibinithyphendelim{-}%
+      \protected@edef\my@flat{\endgroup\noexpand\def\noexpand#1{#2}}%
+    \my@flat
+  }{\def#1{}}%
+}
+
+% Test one "Family/Given" entry from \mynames against the name being printed.
+\newcommand*{\my@testname}[1]{\my@testname@i#1\@nil}
+\def\my@testname@i#1/#2\@nil{%
+  \def\my@fname{#1}\def\my@gname{#2}%
+  \ifboolexpr{ test {\ifdefstrequal{\my@thisfamily}{\my@fname}}
+               and ( test {\ifdefstrequal{\my@thisgiven}{\my@gname}}
+                     or test {\ifdefstrequal{\my@thisgiveni}{\my@gname}} ) }%
+    {\global\toggletrue{boldname}}{}%
+}
+
+% Bold the name if the family name matches and either the full given name or
+% its initials match, so both "Huong/Huy Trung" and "Huong/H. T." are valid.
+% Uses etoolbox's \docsvlist rather than pgffor's \foreach: \foreach emits a
+% spurious space in horizontal mode, which showed up as a visible gap after
+% every given and family name in the bibliography.
+\newcommand*{\checkboldname}{%
   \global\togglefalse{boldname}%
-  \foreach \my@fname / \my@gname in \my@namelist {%
-    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}} and test {\ifdefstrequal{\namepartgiven}{\my@gname}} } {
-      \global\toggletrue{boldname}}{}
-  }%
+  \flattenname{\my@thisfamily}{\namepartfamily}%
+  \flattenname{\my@thisgiven}{\namepartgiven}%
+  \flattenname{\my@thisgiveni}{\namepartgiveni}%
+  \begingroup
+    \let\do\my@testname
+    \expandafter\docsvlist\expandafter{\my@namelist}%
+  \endgroup
+}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \checkboldname
   \iftoggle{boldname}{\textbf{#1}}{#1}%
 }
 
 \renewcommand*{\mkbibnamegiven}[1]{%
-  \global\togglefalse{boldname}%
-  \foreach \my@fname / \my@gname in \my@namelist{% 
-    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}} and test {\ifdefstrequal{\namepartgiven}{\my@gname}} } {
-      \global\toggletrue{boldname}\breakforeach}{}
-  }%
+  \checkboldname
   \iftoggle{boldname}{\textbf{#1}}{#1}%
 }
 

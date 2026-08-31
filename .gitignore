@@ -1,0 +1,18 @@
+# LaTeX build output
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Texifier / Texpad build directory
+.texpadtmp/
+
+# macOS
+.DS_Store
